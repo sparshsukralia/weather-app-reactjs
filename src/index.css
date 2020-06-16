@@ -11,6 +11,7 @@ body {
 
 h1 {
   text-align: center;
+  width: 100%;
   font-size: 2rem;
   font-weight: bold;
   padding: 0.8rem 0;
@@ -30,6 +31,7 @@ h1 {
 h3 {
   text-align: end;
   margin: 0 2rem;
+  color: #ffffff;
 }
 
 /* .app {
@@ -44,7 +46,10 @@ h3 {
 
 .app-wrap {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  width: 90%;
   max-width: 600px;
   height: 80%;
   margin: auto;
@@ -87,11 +92,21 @@ main {
   padding: 3rem 2rem 3rem;
 }
 
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .city {
   color: #ffffff;
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(80, 80, 211);
-  padding: 1rem 0;
+  padding: 1rem;
   font-weight: 100;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
@@ -115,6 +130,7 @@ main {
 
 .current {
   display: flex;
+  width: 20%;
   justify-content: space-between;
   align-items: center;
 }
@@ -128,4 +144,53 @@ main {
   font-size: 3rem;
   padding: 0 20px;
   margin-left: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .app-wrap {
+    width: 90%;
+  }
+
+  .city {
+    width: 70%;
+  }
+
+  .current {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app-wrap {
+    width: 90%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  header {
+    width: 50%;
+  }
+
+  .city {
+    width: 70%;
+  }
+
+  .date {
+    width: 70%;
+  }
+
+  .current {
+    width: 50%;
+    margin: auto;
+  }
+
+  .current .temp {
+    font-size: 4rem;
+  }
+
+  .weather-description {
+    width: 20%;
+  }
 }
