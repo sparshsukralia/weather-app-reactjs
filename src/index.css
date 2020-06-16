@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  background: rgb(80, 80, 211);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  margin: 1rem 0;
+  color: #000000;
+  font-weight: 100;
+  background: #ffffff;
+}
+
+.weather-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  max-width: 80%;
+} */
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  height: 80%;
+  margin: auto;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  background: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem 2rem;
+}
+
+header input {
+  width: 400px;
+  max-width: 30rem;
+  border: none;
+  outline: none;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: rgba(241, 233, 233, 0.6);
+  font-size: 1.2rem;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(238, 229, 229, 0.8);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 2rem 3rem;
+}
+
+.city {
+  color: #ffffff;
+  font-size: 3rem;
+  background-color: rgb(80, 80, 211);
+  padding: 1rem 0;
+  font-weight: 100;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.location .date {
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.current .temp {
+  color: #000000;
+  font-size: 7rem;
+  margin: 1rem 0;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding: 0 20px;
+}
+
+.current {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #000000;
+  font-size: 3rem;
+  padding: 0 20px;
+  margin-left: 0;
+}
