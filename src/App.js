@@ -86,9 +86,7 @@ function App() {
                       alt=""
                     />
                   </div>
-                  <div className="weather">
-                    <h6>{weather.weather[0].main}</h6>
-                  </div>
+                  <div className="weather">{weather.weather[0].main}</div>
                 </div>
                 <div className="temp">
                   {Math.round(weather.main.temp)}

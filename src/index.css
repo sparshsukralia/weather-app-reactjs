@@ -144,7 +144,7 @@ main {
 
 .current .weather {
   color: #000000;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0 20px;
   margin-left: 0;
 }
@@ -160,11 +160,11 @@ main {
   }
 
   .current {
-    width: 70%;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 482px) {
   .app-wrap {
     width: 90%;
     border-radius: 0.5rem;
@@ -197,6 +197,11 @@ main {
 
   .current .temp {
     font-size: 4rem;
+  }
+
+  .current .weather {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   .weather-description {
