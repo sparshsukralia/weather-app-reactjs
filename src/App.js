@@ -83,7 +83,7 @@ function App() {
                   <div className="weather-icon">
                     <img
                       src={require(`./icons/${weather.weather[0].icon}.png`)}
-                      alt="image"
+                      alt=""
                     />
                   </div>
                   <div className="weather">
