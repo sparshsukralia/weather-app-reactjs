@@ -61,7 +61,7 @@ function App() {
         <header>
           <input
             type="text"
-            autocomplete="off"
+            autocomplete="on"
             className="search-box"
             placeholder="Search for a city..."
             onChange={(e) => setQuery(e.target.value)}
@@ -101,7 +101,7 @@ function App() {
           )}
         </main>
       </div>
-      <h3>@codewithsparsh</h3>
+      <h3>Developed by Sparsh Sukralia</h3>
     </div>
   );
 }

@@ -6,7 +6,7 @@
 
 body {
   font-family: "montserrat", sans-serif;
-  background: rgb(80, 80, 211);
+  background: rgb(105, 105, 231);
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
-  padding: 0.8rem 0;
+  padding: 0.4rem 0;
   margin: 1rem 0;
   color: #000000;
   font-weight: 100;
@@ -30,7 +30,10 @@ h1 {
 
 h3 {
   text-align: end;
+  font-size: 15px;
   margin: 0 2rem;
+  margin-top: 0.5rem;
+  font-family: sans-serif;
   color: #ffffff;
 }
 
@@ -105,7 +108,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(80, 80, 211);
+  background-color: rgb(105, 105, 231);
   padding: 1rem;
   font-weight: 100;
   margin-bottom: 2rem;
@@ -136,7 +139,7 @@ main {
 }
 
 .current .temp span {
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .current .weather {
@@ -164,6 +167,7 @@ main {
 @media screen and (max-width: 480px) {
   .app-wrap {
     width: 90%;
+    border-radius: 0.5rem;
   }
 
   h1 {
