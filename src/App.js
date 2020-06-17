@@ -86,8 +86,9 @@ function App() {
                       alt="image"
                     />
                   </div>
-                  <hr />
-                  <div className="weather">{weather.weather[0].main}</div>
+                  <div className="weather">
+                    <h6>{weather.weather[0].main}</h6>
+                  </div>
                 </div>
                 <div className="temp">
                   {Math.round(weather.main.temp)}

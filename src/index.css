@@ -178,6 +178,10 @@ main {
     width: 70%;
   }
 
+  h6 {
+    font-size: 25px;
+  }
+
   .date {
     width: 70%;
   }
