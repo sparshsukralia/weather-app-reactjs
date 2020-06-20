@@ -235,3 +235,32 @@ main {
     align-items: center;
   }
 }
+
+@media screen and (max-width: 365px) {
+  .location .date {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .city {
+    width: 60%;
+  }
+
+  .current {
+    width: 40%;
+    margin: auto;
+  }
+
+  .current .temp {
+    font-size: 4rem;
+    padding-right: 2rem;
+    padding-left: 0;
+    margin-left: 0.5rem;
+  }
+
+  .current .weather-description {
+    margin-left: 2rem;
+    padding-right: 0;
+    margin-right: 0.5rem;
+  }
+}
