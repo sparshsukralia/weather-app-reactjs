@@ -216,6 +216,11 @@ main {
 
   .current .temp {
     font-size: 4rem;
+    margin-right: 1rem;
+  }
+
+  .weather-description {
+    margin-left: 1rem;
   }
 
   .current .weather {
@@ -226,7 +231,7 @@ main {
   .current {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 }
