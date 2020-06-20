@@ -173,6 +173,7 @@ main {
 @media screen and (max-width: 482px) {
   .app-wrap {
     width: 90%;
+    padding: 0 1rem;
     border-radius: 0.5rem;
   }
 
@@ -196,7 +197,7 @@ main {
   }
 
   .city {
-    width: 60%;
+    width: 80%;
   }
 
   h6 {
