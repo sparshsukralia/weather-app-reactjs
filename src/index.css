@@ -30,7 +30,7 @@ h3 {
   font-size: 0.8rem;
   font-weight: bold;
   padding: 0.4rem 0;
-  margin: 1.4rem 0;
+  margin: 1.6rem 0;
   color: #000000;
   font-weight: 100;
   background: #ffffff;
@@ -196,7 +196,7 @@ main {
   }
 
   .city {
-    width: 80%;
+    width: 70%;
   }
 
   h6 {
@@ -223,7 +223,7 @@ main {
   }
 
   .current {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 4rem;
+    padding-right: 4rem;
   }
 }
