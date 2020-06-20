@@ -12,10 +12,25 @@ body {
 h1 {
   text-align: center;
   width: 100%;
-  font-size: 2rem;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 0.4rem 0;
   margin: 1rem 0;
+  color: #000000;
+  font-weight: 100;
+  background: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.4rem 0;
+  margin: 1.4rem 0;
   color: #000000;
   font-weight: 100;
   background: #ffffff;
@@ -26,15 +41,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-h3 {
-  text-align: end;
-  font-size: 15px;
-  margin: 0 2rem;
-  margin-top: 0.5rem;
-  font-family: sans-serif;
-  color: #ffffff;
 }
 
 /* .app {
@@ -66,7 +72,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 2rem 2rem;
+  padding: 2rem 2rem 2rem;
 }
 
 header input {
@@ -118,7 +124,7 @@ main {
 .location .date {
   color: #000000;
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .current .temp {
@@ -175,19 +181,31 @@ main {
   }
 
   header {
+    margin-top: 0;
     width: 50%;
   }
 
+  header input {
+    margin-top: 0;
+    padding: 0.5rem;
+  }
+
+  .location {
+    margin-top: 0;
+    padding: 0;
+  }
+
   .city {
-    width: 70%;
+    width: 80%;
   }
 
   h6 {
     font-size: 25px;
   }
 
-  .date {
+  .location .date {
     width: 70%;
+    font-size: 1.5rem;
   }
 
   .current {
@@ -204,7 +222,8 @@ main {
     font-weight: bold;
   }
 
-  .weather-description {
-    width: 20%;
+  .current {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }

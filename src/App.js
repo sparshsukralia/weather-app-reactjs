@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Weather React App</h1>
+      <h1>WEATHER TODAY</h1>
       <div className="app-wrap">
         <header>
           <input
