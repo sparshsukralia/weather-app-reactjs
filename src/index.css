@@ -196,7 +196,7 @@ main {
   }
 
   .city {
-    width: 70%;
+    width: 60%;
   }
 
   h6 {
@@ -223,7 +223,9 @@ main {
   }
 
   .current {
-    margin-left: 4rem;
-    padding-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
